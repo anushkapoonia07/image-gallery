@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: lightblue;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-gap: 20px;
+    justify-content: center; 
+    align-content: center;
+    height: 100vh; 
+    padding: 20px;
+}
+
+.photo {
+    text-align: center;
+}
+
+img {
+    height: 250px; ;
+    width: 430px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+    padding-top:30px;
+}
